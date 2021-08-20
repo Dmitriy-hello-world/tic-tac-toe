@@ -45,7 +45,7 @@ gameCanvas.addEventListener('click', e => {
             alert(`${winner} won!`);
             window.game = new TicTacToe();
             render();
-        }, 10)
+        }, 10);
     }
 
     if (isDraw) {
